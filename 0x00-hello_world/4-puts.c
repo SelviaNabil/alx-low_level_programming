@@ -3,7 +3,7 @@
  * Auth: Brennan D Baraban <375@holbertonschool.com>
  */
 
-#include <stdio.>
+#include <stdio.h>
 /**
  * main - Entry point
  *
