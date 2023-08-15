@@ -4,7 +4,7 @@
  * auth :Selvia Nabil
  */
 #include <stdlib.h>
-#include <time.h>
+#include <main.h>
 #include <stdio.h>
 
 /**
@@ -14,5 +14,8 @@
  * Return: Always 0.
 */
 
-echo '_putchar' \n
-return 0
+int main(void)
+{
+	echo '_putchar' \n
+return0 ;
+}
