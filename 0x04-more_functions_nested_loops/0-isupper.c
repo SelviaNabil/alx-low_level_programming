@@ -6,32 +6,13 @@
  *
  * Return: Always 0.
  */
-int _isupper(char c)
+int _isupper(int c);
 {
-if (c >= 65 && c <= 90)
+if ((c >= 'A') && (c <= 'Z'))
 {
 	return (1);
-	}
 	else
-       {
-		return (0);
-	}
-
-}
-int main(void)
 {
-	char c;
-c = 'A';
-int a;
-
-a = _isupper(c);
-
-printf("%c: %d\n", c, a);
-
-c = 'a';
-
-printf("%c: %d\n", c, a);
-
-return (0);
-
+	return (0);
+}
 }
