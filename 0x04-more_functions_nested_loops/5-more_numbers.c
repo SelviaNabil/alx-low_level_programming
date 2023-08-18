@@ -4,7 +4,7 @@
 *
 *Return: returns nothing
 */
-int more_numbers(void)
+void more_numbers(void)
 int row, num, count;
 for (row = 0; row < 10; row++)
 {
@@ -21,5 +21,4 @@ else
 _putchar(num + 48);
 }
 _putchar('\n');
-}
 }
