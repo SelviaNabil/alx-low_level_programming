@@ -5,20 +5,21 @@
 *Return: returns nothing
 */
 void more_numbers(void)
-int row, num, count;
-for (row = 0; row < 10; row++)
+void more_numbers(void)
 {
-for (count = 0; count <= 14; count++)
+int number1, number2;
+
+for (number1 = 0; number1 < 10; number1++)
+{
+for (number2 = 0; number2 <= 14; number2++)
 
 {
-num = count;
-if (count > 9)
+if (number2 > 9)
 {
-_putchar(1 + 48);
-num = count % 10;
+_putchar((number2 / 10) + '0');
 }
-else
-_putchar(num + 48);
+_putchar((number2 % 10) + '0');
 }
-_putchar('\n');
+_putchar(10);
+}
 }
